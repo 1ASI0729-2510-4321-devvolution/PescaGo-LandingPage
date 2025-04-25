@@ -60,3 +60,54 @@ h6 {
   position: relative;
 }
 
+.btn-primary {
+  background-color: var(--light-blue);
+  border-color: var(--light-blue);
+  border-radius: 30px;
+  padding: 12px 30px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: var(--accent-blue);
+  border-color: var(--accent-blue);
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn-outline-primary {
+  color: var(--navy-blue);
+  border-color: var(--navy-blue);
+  border-radius: 30px;
+  padding: 12px 30px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--navy-blue);
+  color: var(--white);
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.section-title {
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -15px;
+  width: 80px;
+  height: 4px;
+  background-color: var(--light-blue);
+}
