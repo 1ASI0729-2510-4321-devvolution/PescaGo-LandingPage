@@ -14,15 +14,6 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   });
 });
 
-// Function to simulate user registration API loop trigger
-function registerUser(role) {
-  // Simulate API call to 'User Registration API Loop'
-  // In a real app, you would perform an asynchronous API call here
-  alert(
-    Registro iniciado para ${role}. Por favor, revisa tu correo para próximos pasos.
-  );
-}
-
 // Form submission handler for Contact Form
 document.getElementById("contactForm").addEventListener("submit", function (e) {
   e.preventDefault();
